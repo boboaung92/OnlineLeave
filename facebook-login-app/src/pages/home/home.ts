@@ -84,7 +84,7 @@ userProfile: any = null;
 */ 
     
     this.facebook.login(['email']).then( (response) => {
-        console.log("loading 56789....");
+        console.log("loading testing....");
         const facebookCredential = firebase.auth.FacebookAuthProvider
             .credential(response.authResponse.accessToken);
 
