@@ -94,7 +94,7 @@ userProfile: any = null;
             this.userProfile = success;
         })
         .catch((error) => {
-            console.log("Firebase fabjhgilure123: " + JSON.stringify(error));
+            console.log("Firebase testing 123 by ms: " + JSON.stringify(error));
         });
 
     }).catch((error) => { "Facebook error123456: " +console.log(error) });
