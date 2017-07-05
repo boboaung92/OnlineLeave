@@ -90,7 +90,7 @@ userProfile: any = null;
 
         firebase.auth().signInWithCredential(facebookCredential)
         .then((success) => {
-            console.log("Firebase success: " + JSON.stringify(success));
+            console.log("Firebase success123: " + JSON.stringify(success));
             this.userProfile = success;
         })
         .catch((error) => {
